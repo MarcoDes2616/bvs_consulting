@@ -39,7 +39,6 @@ h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .propuesta{
     color: var(--primary);
     width: 70%;
@@ -162,7 +161,26 @@ h2{
 .reversed{
     flex-direction: row-reverse;
 }
-
+iframe{
+    width: 70%;
+    height: 90vh;
+}
+.container_cotizacion{
+    position: relative;
+}
+.container_cotizacion button{
+    position: absolute;
+    font-size: 1.3rem;
+    bottom: 50px;
+    right: 230px;
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    background: linear-gradient(133deg, rgba(255, 222, 0, 1) 0%, rgba(218, 142, 0, 1) 100%);
+}
+.container_cotizacion button:hover{
+    cursor: pointer;
+}
 
 /*
 degradadado azul
