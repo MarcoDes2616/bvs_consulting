@@ -36,8 +36,17 @@ header{
 .propuesta p span{
     margin-left: 3rem;
 }
+.aboutUs{
+    width: 80%;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin: 4rem auto;
+}
 .aboutUs h2{
     background-color: linear-gradient(133deg, rgba(0,255,255,1) 0%, rgba(1,93,144,1) 100%);
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2.7rem;
 }
 
 /*
