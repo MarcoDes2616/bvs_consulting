@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
 
 :root {
     --primary: #00FFFF;
@@ -28,13 +28,16 @@ header{
     box-shadow: 0px 3px 10px 0px var(--primary);
 }
 h2{
-    background: -webkit-linear-gradient(133deg,
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2.7rem;
+    background-clip: text;
+    font-weight: 800;
+    background: linear-gradient(133deg,
         rgba(0, 255, 255, 1) 0%,
         rgba(1, 93, 144, 1) 100%);
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
 }
 
 .propuesta{
@@ -60,11 +63,7 @@ h2{
 .contenedor_logo p{
     margin-left: 2rem;
 }
-.aboutUs h2{
-    margin: 2rem 0;
-    text-align: center;
-    font-size: 2.7rem;
-}
+
 .wireframe{
     width: 90%;
     margin: 0 auto;
@@ -86,13 +85,72 @@ h2{
 
 .flex__container{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .modal{
     width: 85%;
+}
+
+.modal__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+    min-height: 350px;
+    color: #f1f1f1;
+    padding: 2.5em;
+    font-size: .9em;
+    gap: 1em;
+}
+
+.model__avatar{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.avatar >img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.card__btn{
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 1em;
+    color: var(--dark);
+    background: linear-gradient(133deg, rgba(255, 222, 0, 1) 0%, rgba(218, 142, 0, 1) 100%);
+
+}
+.bg-sec{
+    background-color: var(--dark_sec);
+}
+
+.reversed{
+    flex-direction: row-reverse;
 }
 
 
