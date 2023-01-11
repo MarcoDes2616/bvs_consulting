@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --primary: #00FFFF;
+    --secondary: #0059FF;
+    --success: #FFB800;
+    --light: #F8F9FA;
+    --dark: #000;
+    --dark_sec: #424242;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(./img/bg_header.jpeg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100vw;
+}
+
+/*
+degradadado azul
+
+background: rgb(0,255,255);
+background: linear-gradient(133deg, rgba(0,255,255,1) 0%, rgba(1,93,144,1) 100%);
+
+Degradado naranja
+
+background: rgb(255,222,0);
+background: linear-gradient(133deg, rgba(255,222,0,1) 0%, rgba(218,142,0,1) 100%);*/
