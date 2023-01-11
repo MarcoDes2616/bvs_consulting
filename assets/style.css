@@ -90,6 +90,14 @@ h2{
     align-items: center;
 }
 
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal{
     width: 85%;
 }
@@ -110,6 +118,8 @@ h2{
 .model__avatar{
     display: flex;
     width: 250px;
+    height: 400px;
+    padding: 1em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
