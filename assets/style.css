@@ -27,6 +27,16 @@ header{
     width: 100vw;
     box-shadow: 0px 3px 10px 0px var(--primary);
 }
+h2{
+    background: -webkit-linear-gradient(133deg,
+        rgba(0, 255, 255, 1) 0%,
+        rgba(1, 93, 144, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
 .propuesta{
     color: var(--primary);
     width: 70%;
@@ -51,7 +61,6 @@ header{
     margin-left: 2rem;
 }
 .aboutUs h2{
-    background-color: linear-gradient(133deg, rgba(0,255,255,1) 0%, rgba(1,93,144,1) 100%);
     margin: 2rem 0;
     text-align: center;
     font-size: 2.7rem;
@@ -74,6 +83,19 @@ header{
 .container_wf img{
     width: 40%;
 }
+
+.flex__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 85%;
+}
+
+
 /*
 degradadado azul
 
