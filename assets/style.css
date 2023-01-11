@@ -17,6 +17,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--dark);
     color: var(--light);
+    line-height: 2rem;
 }
 header{
     background-image: url(./img/bg_header.jpeg);
@@ -31,16 +32,23 @@ header{
     width: 70%;
     text-align: justify;
     margin: 4rem auto;
-    border: 1px solid white;
 }
 .propuesta p span{
     margin-left: 3rem;
 }
 .aboutUs{
-    width: 80%;
+    width: 70%;
     text-align: justify;
-    line-height: 1.5rem;
     margin: 4rem auto;
+}
+.contenedor_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.contenedor_logo p{
+    margin-left: 2rem;
 }
 .aboutUs h2{
     background-color: linear-gradient(133deg, rgba(0,255,255,1) 0%, rgba(1,93,144,1) 100%);
