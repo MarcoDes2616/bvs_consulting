@@ -127,7 +127,6 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .modal{
@@ -155,6 +154,9 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.this{
+    margin-top: 3.5rem;
 }
 
 
