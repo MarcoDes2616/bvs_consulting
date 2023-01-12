@@ -95,17 +95,31 @@ h5{
     width: 90%;
     text-align: justify;
     margin: 4rem auto;
-    padding: 4rem 7rem;
+    padding: 4rem 2rem;
     background-color: var(--dark_sec);
 }
 .contenedor_logo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    width: 100%;
 }
+
+.logo__codefy{
+    width: 25%;
+}
+
+.logo__codefy> img{
+    width: 100%;
+}
+
+.about__text{
+    width: 60%;
+}
+
 .contenedor_logo p{
-    margin-left: 2rem;
+    padding: 0 2rem;
 }
 
 .wireframe{
@@ -249,7 +263,7 @@ h5{
     background-color: var(--dark_sec);
     margin: 3rem 0;
     text-align: justify;
-    padding: 4rem;
+    padding: 2.5rem;
     display: flex;
     gap: 2rem;
 }
