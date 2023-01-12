@@ -27,11 +27,12 @@ header{
 nav{
     background-color: var(--dark_sec);
     border-bottom: 1px solid var(--primary);
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     position: fixed;
-    z-index: 100;
     top: 0;
+    z-index: 2;
 }
 nav a{
     width: 6rem;
@@ -68,6 +69,18 @@ h2{
         rgba(1, 93, 144, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h5{
+    font-weight: 600;
+    color: var(--primary);
+    text-align: center;
+    /* background: linear-gradient(133deg,
+                rgba(0, 255, 255, 1) 0%,
+                rgba(1, 93, 144, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 .propuesta{
     color: var(--primary);
@@ -124,13 +137,23 @@ h2{
 
 .cards{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .modal{
-    width: 85%;
+    z-index: 50;
+}
+
+.cards-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    width: 100%;
 }
 
 .modal__card{
@@ -148,15 +171,13 @@ h2{
 
 .model__avatar{
     display: flex;
-    width: 250px;
+    width: 255px;
     height: 400px;
     padding: 1em;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.this{
-    margin-top: 3.5rem;
+    align-items: space-around;
+    text-align: center;
 }
 
 
@@ -179,16 +200,44 @@ h2{
     gap: .5em;
 }
 
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    /* justify-content: center; */
+    align-items: center;
+}
+
 .card__btn{
     display: grid;
     place-items: center;
-    width: 100px;
+    width: 140px;
     height: 30px;
     border-radius: 1em;
     color: var(--dark);
-    background: linear-gradient(133deg, rgba(255, 222, 0, 1) 0%, rgba(218, 142, 0, 1) 100%);
+    background: linear-gradient(133deg, rgba(0, 255, 255, 1) 0%, rgba(1, 93, 144, 1) 100%);
 
 }
+
+.card__btn-orange{
+    display: grid;
+    place-items: center;
+    margin: 1em;
+    width: 140px;
+    height: 30px;
+    border-radius: 1em;
+    color: var(--dark);
+    border: 2px solid var(--success);
+}
+
+.card__btn-orange>a{
+    color: var(--light);
+}
+
+.card__btn-orange:hover{
+    background-color: linear-gradient(133deg, rgba(255, 222, 0, 1) 0%, rgba(218, 142, 0, 1) 100%)!important;
+}
+
 .bg-sec{
     background-color: var(--dark_sec);
 }
